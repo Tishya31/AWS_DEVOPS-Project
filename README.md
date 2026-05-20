@@ -245,7 +245,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-cred',
-                    url: 'https://github.com/Reshufowzi/application-code.git'
+                    url: 'https://github.com/Tishya31/AWS_DEVOPS-Project'
             }
         }
     }
@@ -267,7 +267,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-cred',
-                    url: 'https://github.com/Reshufowzi/application-code.git'
+                    url: 'https://github.com/Tishya31/AWS_DEVOPS-Project'
             }
         }
 
@@ -306,7 +306,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-cred',
-                    url: 'https://github.com/Reshufowzi/application-code.git'
+                    url: 'https://github.com/Tishya31/AWS_DEVOPS-Project'
             }
         }
 
@@ -354,7 +354,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-cred',
-                    url: 'https://github.com/Reshufowzi/application-code.git'
+                    url: 'https://github.com/Tishya31/AWS_DEVOPS-Project'
             }
         }
 
@@ -410,8 +410,8 @@ pipeline {
         IMAGE_NAME = 'mydockerimage'
         SONARQUBE_SERVER = 'SonarQubeServer'
         PATH = "/opt/sonar-scanner/bin:${PATH}"
-        ECR_REPO = '128913199644.dkr.ecr.us-east-1.amazonaws.com/myecrrepo'
-        AWS_REGION = 'us-east-1'
+        ECR_REPO = '868084983997.dkr.ecr.us-east-2.amazonaws.com/myecrrepo'
+        AWS_REGION = 'us-east-2'
     }
 
     stages {
@@ -420,7 +420,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-cred',
-                    url: 'https://github.com/Reshufowzi/application-code.git'
+                    url: 'https://github.com/Tishya31/AWS_DEVOPS-Project'
             }
         }
 
@@ -489,8 +489,8 @@ pipeline {
         IMAGE_NAME = 'mydockerimage'
         SONARQUBE_SERVER = 'SonarQubeServer'
         PATH = "/opt/sonar-scanner/bin:${PATH}"
-        ECR_REPO = '128913199644.dkr.ecr.us-east-1.amazonaws.com/myecrrepo'
-        AWS_REGION = 'us-east-1'
+        ECR_REPO = '868084983997.dkr.ecr.us-east-2.amazonaws.com/myecrrepo'
+        AWS_REGION = 'us-east-2'
         DEPLOYMENT_REPO = 'https://github.com/Reshufowzi/deployment-repo.git'
     }
 
