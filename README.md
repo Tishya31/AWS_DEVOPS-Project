@@ -491,7 +491,7 @@ pipeline {
         PATH = "/opt/sonar-scanner/bin:${PATH}"
         ECR_REPO = '868084983997.dkr.ecr.us-east-2.amazonaws.com/myecrrepo'
         AWS_REGION = 'us-east-2'
-        DEPLOYMENT_REPO = 'https://github.com/Reshufowzi/deployment-repo.git'
+        DEPLOYMENT_REPO = 'https://github.com/Tishya31/deployment-repo.git'
     }
 
     stages {
